@@ -1,0 +1,59 @@
+/* data-values can be found in qlSetup */
+:root {
+    --ql-tiny-size: 9px;
+    --ql-small-size: 13px;
+    --ql-normal-size: 17px;
+    --ql-large-size: 24px;
+    --ql-huge-size: 32px;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=tiny]::before {
+    font-size: var(--ql-tiny-size);
+}
+.ql-custom-font-size-tiny {
+    font-size: var(--ql-tiny-size);
+    line-height: 1;
+}
+.ql-custom-inline-font-size-tiny {
+    font-size: var(--ql-tiny-size);
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=small]::before {
+    font-size: var(--ql-small-size);
+}
+.ql-custom-font-size-small {
+    font-size: var(--ql-small-size);
+    line-height: 1;
+}
+.ql-custom-inline-font-size-small {
+    font-size: var(--ql-small-size);
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=normal]::before {
+    font-size: var(--ql-normal-size);
+}
+.ql-custom-font-size-normal {
+    font-size: var(--ql-normal-size);
+    line-height: 1;
+}
+.ql-custom-inline-font-size-normal {
+    font-size: var(--ql-normal-size);
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=large]::before {
+    font-size: var(--ql-large-size);
+}
+.ql-custom-font-size-large {
+    font-size: var(--ql-large-size);
+    line-height: 1;
+}
+.ql-custom-inline-font-size-large {
+    font-size: var(--ql-large-size);
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=huge]::before {
+    font-size: var(--ql-huge-size);
+}
+
+.ql-custom-font-size-huge {
+    font-size: var(--ql-huge-size);
+    line-height: 1;
+}
+.ql-custom-inline-font-size-huge {
+    font-size: var(--ql-huge-size);
+}
